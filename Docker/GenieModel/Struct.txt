@@ -1,0 +1,23 @@
+// character: Genie Demo model
+Docker\GenieModel\misono_mika
+Docker\GenieModel\misono_mika\prompt_wav.json
+Docker\GenieModel\misono_mika\prompt.wav
+Docker\GenieModel\misono_mika\t2s_encoder_fp32.bin
+Docker\GenieModel\misono_mika\t2s_encoder_fp32.onnx
+Docker\GenieModel\misono_mika\t2s_first_stage_decoder_fp32.onnx
+Docker\GenieModel\misono_mika\t2s_shared_fp16.bin
+Docker\GenieModel\misono_mika\t2s_stage_decoder_fp32.onnx
+Docker\GenieModel\misono_mika\vits_fp16.bin
+Docker\GenieModel\misono_mika\vits_fp32.onnx
+
+// character: SVITS-V2 -> Genie, auto copy and generate by game_cv_gen.py
+Docker\GenieModel\Nene
+Docker\GenieModel\Nene\prompt_wav.json
+Docker\GenieModel\Nene\prompt.wav
+Docker\GenieModel\Nene\t2s_encoder_fp32.bin
+Docker\GenieModel\Nene\t2s_encoder_fp32.onnx
+Docker\GenieModel\Nene\t2s_first_stage_decoder_fp32.onnx
+Docker\GenieModel\Nene\t2s_shared_fp16.bin
+Docker\GenieModel\Nene\t2s_stage_decoder_fp32.onnx
+Docker\GenieModel\Nene\vits_fp16.bin
+Docker\GenieModel\Nene\vits_fp32.onnx

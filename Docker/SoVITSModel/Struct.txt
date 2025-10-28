@@ -1,0 +1,7 @@
+// Assuming your reference audio slice will included in .list when training SoVITS model
+// May refactor later for this part because I am not very familiar to SoVITS training now.
+Docker\SoVITSModel\Nene
+Docker\SoVITSModel\Nene\Nene_e4_s200.pth
+Docker\SoVITSModel\Nene\nene_voice.wav_0000128320_0000246400.wav
+Docker\SoVITSModel\Nene\Nene-e5.ckpt
+Docker\SoVITSModel\Nene\slicer_opt.list 
