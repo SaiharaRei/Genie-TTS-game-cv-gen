@@ -41,7 +41,7 @@ SUPPORTED_AUDIO_EXTS = {'.wav', '.flac', '.ogg', '.aiff', '.aif'}
 def load_character(
         character_name: str,
         onnx_model_dir: Union[str, PathLike],
-) -> None:
+) -> bool:
     """
     Loads a character model from an ONNX model directory.
 
@@ -50,7 +50,7 @@ def load_character(
         onnx_model_dir (str | PathLike): The directory path containing the ONNX model files.
     """
     model_path: str = os.fspath(onnx_model_dir)
-    model_manager.load_character(
+    return model_manager.load_character(
         character_name=character_name,
         model_dir=model_path,
     )
